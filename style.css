@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.header,
+.sidebar,
+.content,
+.footer {
+   /* border: 2px double gold;*/
+    /*border-width: ;
+    border-style: ;
+    border-color: ;*/
+
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 200; /*normal*/
+    font-style: normal;/*курсив*/
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.header {
+    background-color: green;
+}
+.sidebar,
+.content {
+    float: left;
+}
+.sidebar {
+    background-color: brown;
+    width: 20%;
+}
+.content {
+    background-color: blue;
+    width: 80%;
+}
+.footer {
+    background-color: blueviolet;
+    clear: both;
+}
